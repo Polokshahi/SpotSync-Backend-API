@@ -2,9 +2,7 @@ package dto
 
 import "time"
 
-// ==========================
-// Create Zone
-// ==========================
+
 
 type CreateZoneRequest struct {
 	Name          string  `json:"name" validate:"required,min=3,max=100"`
@@ -22,9 +20,7 @@ type UpdateZoneRequest struct {
 	PricePerHour  float64 `json:"price_per_hour" validate:"omitempty,gt=0"`
 }
 
-// ==========================
-// Response
-// ==========================
+
 
 type ZoneResponse struct {
 	ID              uint      `json:"id"`
