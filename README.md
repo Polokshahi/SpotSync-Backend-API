@@ -2,7 +2,7 @@
 
 SpotSync is a RESTful backend API built with **Go**, **Echo Framework**, **PostgreSQL (Neon)**, **GORM**, and **JWT Authentication**. It provides user authentication, zone management, and reservation management using a clean layered architecture.
 
----
+
 
 # Features
 
