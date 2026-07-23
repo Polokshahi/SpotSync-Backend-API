@@ -3,9 +3,7 @@ package handler
 import (
 	"net/http"
 	"strconv"
-
 	"github.com/labstack/echo/v4"
-
 	"spotsync/internal/dto"
 	"spotsync/internal/service"
 )
