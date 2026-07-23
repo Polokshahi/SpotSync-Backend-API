@@ -21,9 +21,6 @@ type ReservationResponse struct {
 	UpdatedAt     time.Time `json:"updated_at"`
 }
 
-// ==========================
-// My Reservations
-// ==========================
 
 type MyReservationResponse struct {
 	ID           uint         `json:"id"`

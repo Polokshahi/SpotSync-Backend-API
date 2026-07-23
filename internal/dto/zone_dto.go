@@ -13,9 +13,7 @@ type CreateZoneRequest struct {
 	PricePerHour  float64 `json:"price_per_hour" validate:"required,gt=0"`
 }
 
-// ==========================
-// Update Zone
-// ==========================
+
 
 type UpdateZoneRequest struct {
 	Name          string  `json:"name" validate:"omitempty,min=3,max=100"`
