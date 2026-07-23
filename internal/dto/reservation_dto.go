@@ -2,18 +2,14 @@ package dto
 
 import "time"
 
-// ==========================
-// Create Reservation
-// ==========================
+
 
 type CreateReservationRequest struct {
 	ZoneID        uint   `json:"zone_id" validate:"required,gt=0"`
 	LicensePlate  string `json:"license_plate" validate:"required,max=15"`
 }
 
-// ==========================
-// Reservation Response
-// ==========================
+
 
 type ReservationResponse struct {
 	ID            uint      `json:"id"`
